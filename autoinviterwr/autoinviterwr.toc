@@ -1,0 +1,13 @@
+## Interface: 60100
+# WowRaider Autoinviter addon v6.1
+# Website: http://wowraider.net
+## Title: Auto-inviter by WowRaider.Net
+## Title-ruRU: Авто-инвайтер WowRaider.Net
+## Notes: Addon for automatic party/raid invitation by keyword whisper
+## Notes-ruRU: Аддон для автоматического приглашения в группу/рейд по шепоту ключевого слова
+## SavedVariables: magics
+## DefaultState: enabled
+locale-en.lua
+locale-ru.lua
+autoinviterwr.xml
+autoinviterwr.lua

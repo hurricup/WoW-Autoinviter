@@ -1,0 +1,22 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.blizzard.com/wow/ui/ 
+..\..\FrameXML\UI.xsd"> 
+
+<Frame name="autoinviter_Frame">
+	<Scripts>
+		<onLoad>
+			self:RegisterEvent("VARIABLES_LOADED");
+		</onLoad>
+		<onEvent>
+			if( event == "VARIABLES_LOADED" ) then
+				autoinviter_Init()
+			elseif( event == "CHAT_MSG_WHISPER") then
+				autoinviter_Whisper(...)
+			elseif( event == "CHAT_MSG_BN_WHISPER") then
+				autoinviter_BNWhisper(...)
+			end
+		</onEvent>
+	</Scripts>
+</Frame>
+</Ui>
