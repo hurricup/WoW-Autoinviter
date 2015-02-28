@@ -7,6 +7,8 @@
 ## Notes-ruRU: Аддон для автоматического приглашения в группу/рейд по шепоту ключевого слова
 ## SavedVariables: magics
 ## DefaultState: enabled
+## X-Website: https://github.com/hurricup/WoW-Autoinviter
+## X-Feedback: https://github.com/hurricup/WoW-Autoinviter/issues
 locale-en.lua
 locale-ru.lua
 autoinviterwr.xml
